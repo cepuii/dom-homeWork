@@ -38,8 +38,7 @@ for(let inputData of inputs){
 
 const image = document.createElement('img');
 image.setAttribute('src', 'https://mdn.github.io/css-examples/css-cookbook/balloon-sq2.jpg');
-form.append(image);
-
+form.after(image);
 
 const p = document.querySelector('p');
 p.classList.toggle('red');
